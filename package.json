@@ -1,0 +1,30 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wudifeixue/nodeAPI.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Practice"
+  ],
+  "author": "Curtis Xiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wudifeixue/nodeAPI/issues"
+  },
+  "homepage": "https://github.com/wudifeixue/nodeAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
