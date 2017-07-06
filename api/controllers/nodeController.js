@@ -1,10 +1,10 @@
 'use strict';
 
-let mongoose = require('mongoose'),
+var mongoose = require('mongoose'),
   Task = mongoose.model('Tasks');
 
 exports.listAllTasks = function(req, res) {
-  Task.find({}, function(err, task){
+  Task.find({}, function(err, task) {
     if (err)
       res.send(err);
     res.json(task);

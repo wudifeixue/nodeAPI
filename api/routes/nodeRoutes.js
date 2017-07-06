@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(app) {
-  let nodeDemo = require('../constrollers/nodeController');
+  let nodeDemo = require('../controllers/nodeController');
 
   // nodeDemo Routes
   app.route('/tasks')
