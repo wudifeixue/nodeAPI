@@ -1,6 +1,6 @@
 let express = require('express'),
-app = express(),
-port = process.env.PORT || 10086;
+  app = express(),
+  port = process.env.PORT || 10086;
 
 app.listen(port);
 
