@@ -1,8 +1,8 @@
 'use strict';
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+let mongoose = require('mongoose');
+let Schema = mongoose.Schema;
 
-const TaskSchema = new Schema({
+let TaskSchema = new Schema({
   name: {
     type: String,
     Required: 'Enter the name of the task'
